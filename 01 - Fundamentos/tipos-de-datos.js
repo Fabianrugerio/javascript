@@ -24,6 +24,10 @@ Es el valor que se le asigna a una variable que ha sido declarada pero no inicia
 
 Array o Arreglo
 Conjunto de datos que los almacena en una lista ordenada de elementos. Los datos dentro de los arreglos se escriben entre corchetes [] y separados por comas , y cada palabra tiene que ir entre comillas ""
+
+3. Object 
+
+Es un conjunto de multiples datos en pares 'clave'-'valor'. Se escriben entre las llaves {} y separados por comas
 */
 
 /* Numbers */
@@ -70,3 +74,19 @@ let otroArray = ["puchunguito",56,true]
 console.log(misFriutasFavoritas)
 console.log(misNumerosSuerte)
 console.log(otroArray)
+
+/* Objeto */
+
+let persona = {
+  // clave : valor
+  nombre : "Fabian",
+  edad : 21 ,
+  colorCabello : "negro",
+  colorOjos : "cafe oscuro",
+  altura : 1.74,
+  peso : undefined,
+  vivo : true,
+  novia : false,
+}
+
+console.log(persona)
