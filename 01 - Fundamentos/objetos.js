@@ -94,7 +94,7 @@ let mascota = {
   // Declaramos un método
   saludo : function(amo) {
     // Código  que se ejecuta al invocar la funcio
-    alert(`miau miau miau. Me llamo ${this.nombre} y mi amo es ${amo} `); 
+    alert(`miau miau miau. Me llamo ${this.nombre} y mi amo es ${amo} `); // si vi que me fallo profe
   } 
 }
 
