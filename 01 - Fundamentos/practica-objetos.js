@@ -62,7 +62,7 @@ Arsenal.agregarArma(arma2)
 Arsenal.agregarArma(arma3)
 
 for( let i = 0 ; i <= 2; i++ ){
-  (Arsenal.armas[i].describir())
+  Arsenal.armas[i].describir()
 }
 
 /* console.log(Arsenal.armas)
